@@ -1,0 +1,83 @@
+* { margin: 0;
+    padding: 0;} 
+    h1 { font-size: 30px ; 
+        font-family: Arial, Helvetica, sans-serif; 
+         font-weight: bold; }
+  
+    header, nav, section, footer, article, aside, hgroup,
+    { display: block }
+    body { text-align: center;
+    background: grey;}
+    .agrupar{
+        border: 1px solid black;
+         width: 960px;
+         margin: 15px auto;
+        background: black;} 
+         
+    .header {
+        text-align: left ;
+        background: #FF0000;
+        border: 1px solid black;
+        padding: 20px
+        } 
+    .menu{ 
+        background: #ccc;
+        padding: 5px 15px;
+        text-align: left;
+    }
+    .menu li{
+        border: 1px solid black;
+        list-style: none;
+        padding: 5px; 
+        font: bold 14px verdana ;
+        display: inline-block;
+        text-align: left;}
+
+        article {
+            text-align: justify;
+            background: white;
+            border: solid #999999;
+            padding: 20px;
+            margin-bottom:  20px;
+        }
+       
+
+        article footer {
+            text-align: right;
+            margin-top: 20px;
+         }
+         time{
+             color: #999;
+         }
+        img {
+            float: right;
+            width: 300px;
+            height: 300 px;
+            margin: 20px auto;
+            display: block;
+            margin-left: 20px ;
+        }
+
+         
+    .seccion {
+       margin: 20px;
+        width: 60%;
+       float: left;       }
+
+    .columna {
+        width: 30%;
+        float: left;
+        margin: 20px;} 
+
+        .columna blockquote{
+            border: 1px solid white;
+            padding: 40px;
+            background: #FF0000 ; 
+            margin-top: 20px;
+        }
+    .pie{
+        text-align: left;
+        clear: both;
+        padding: 20px;
+        background: gray;
+        color:black;}
